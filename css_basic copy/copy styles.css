@@ -1,0 +1,28 @@
+h1 {
+    Color: Red
+}
+P {
+    Color: blue
+}
+Li {
+    Color: orange
+}
+li {
+    list-style-type: square
+}
+.Special{
+    Color: green;
+    font-weight: bold
+}
+h1+p {
+    font-size: 200%;
+}
+a:Link {
+    Color: Pink;
+}
+a:visited {
+    color:aquamarine;
+}
+a:hover {
+    text-decoration: none;
+}

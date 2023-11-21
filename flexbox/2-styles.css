@@ -364,9 +364,9 @@
   }
   
   /* Section Latest news ============================= */
-.section-latest-news .row {
-  flex-direction: row-reverse;
-}
+  .section-latest-news .row {
+    flex-direction: row-reverse;
+  }
 
   /* Section SERVICES ============================= */
 .section-services .row {

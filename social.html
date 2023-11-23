@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Single-Page Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+        }
+
+        section {
+            min-height: 100vh; /* Set each section to at least the height of the viewport */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: #fff;
+            margin: 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .global-block {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .row-block {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .row-block img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .column-block {
+            flex: 0 0 48%; /* Adjust width of the block as needed */
+        }
+
+        /* Add more styling as needed for each section */
+    </style>
+</head>
+<body>
+
+    <section id="section1">
+        <h2>Section 1</h2>
+        <p>This is the content of section 1.</p>
+    </section>
+
+    <section id="section2">
+        <h2>Section 2</h2>
+        <p>This is the content of section 2.</p>
+    </section>
+
+    <section id="section3">
+        <h2>Section 3</h2>
+        <p>This is the content of section 3.</p>
+    </section>
+
+    <!-- Add more sections as needed -->
+
+    <footer>
+        <div class="global-block">
+            <div class="row-block">
+                <img src="your-logo.png" alt="Company Logo">
+                <div class="column-block">
+                    <a href="#">
+                        <img src="social-icon1.png" alt="Social Icon 1">
+                    </a>
+                    <a href="#">
+                        <img src="social-icon2.png" alt="Social Icon 2">
+                    </a>
+                    <!-- Add more social icons as needed -->
+                    <p>Contact us at: info@example.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>

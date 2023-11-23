@@ -11,8 +11,12 @@ body {
     background-repeat: no-repeat;
 }
 .section {
+    display: flex;
     align-items: center;
     text-align: center;
+    margin: 0;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 /* ============ Header=========*/
@@ -34,4 +38,66 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center space-around;
+}
+
+/*======== trial=========*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+section {
+    min-height: 100vh; /* Set each section to at least the height of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align:end ;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.global-block {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row-block img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.column-block {
+    flex: 0 0 48%; 
 }

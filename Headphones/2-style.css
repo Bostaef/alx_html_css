@@ -29,8 +29,6 @@ button:active {
 section {
     height: 100vh; /* Set each section to at least the height of the viewport */
     width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
     text-align: center;
     margin: 0;
     padding: 20px;
@@ -38,7 +36,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 /*Header*/
-header {
+.header {
     background-image: url("./Images/headphones_hero_1.jpg");
     background-position: center;
     background-size: cover;
@@ -106,3 +104,35 @@ a {
   a:active {
     background-color: var(--color-light-grey);
   }
+
+  /* What we do */ 
+
+.What-we-do {
+    height: 70vh;
+    
+}
+.main-section-body {
+    display: flex;
+    justify-content: center;
+}
+ .services-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+ }
+
+ .service-item {
+    margin-right: 15px;
+    width: 300px;
+ }
+
+ .main-section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px;
+ }

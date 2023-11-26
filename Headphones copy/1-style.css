@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section {
+    height: 100vh; /* Set each section to at least the height of the viewport */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: url(/Headphones/Images/headphones_hero_1.jpg);
+    background-position: 500px;
+    background-size: cover;
+}
+
+  .header-with-background {
+    padding: var(--header-padding);
+    position: relative;
+    z-index: 3;
+    background: url("./Images/headphones_hero_1.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .body-graph {
+    width: 600px;
+    height: 30px;
+    align-items: center;
+  }
+.action-button {
+    color: white;
+    background-color: pink;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.contact-button {
+    color: white;
+    background-color: #FF6565;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.Our-results {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image:url("./Images/headphones_hero_2.jpg");
+    background-attachment:fixed;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.Our-results-shapes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    list-style: none;
+}
+.our-results-Main-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+/*contact-us*/
+
+.contact-body {
+    font-family: Arial, Helvetica, sans-serif;
+    size: 32px;
+    line-height: 37.5;
+}
+
+section .the-contact-us {
+    width: fit-content;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+
+}
+

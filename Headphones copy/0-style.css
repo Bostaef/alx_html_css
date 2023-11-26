@@ -1,0 +1,27 @@
+/* Switch to mobile version at 480px or less */
+@media screen and (max-width: 480px) {
+}
+
+/* Links hover/active: #FF6565 */
+a:hover,
+a:active {
+    color: #FF6565;
+}
+
+/* Button hover/active: opacity: 0.9 */
+button:hover,
+button:active {
+    opacity: 0.9;
+}
+
+/* Max width of content: 1000px centered in the page */
+.container {
+    max-width: 1000px;
+    margin: 0 auto; /* Center the container */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

@@ -3,10 +3,8 @@
 }
 
 /* Links hover/active: #FF6565 */
-a:hover,
-a:active {
-    color: #FF6565;
-}
+
+
 
 /* Button hover/active: opacity: 0.9 */
 button:hover,
@@ -43,7 +41,7 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
-    height: 80vh;
+    height: 75vh;
 }
 
 .header-logo {
@@ -141,4 +139,95 @@ a {
     width: 100px;
     height: 30px;
  }
+
+/* Our Results*/ 
+.Our-results {
+    background-image: url("./Images/headphones_hero_2.jpg");
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.our-results-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    width: 800px;
+}
+
+.Our-results-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 50px;
+    width: 700px;
+    height: 5px;
+}
+.our-results-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 800px;
+}
+
+/* Contact Us */
+
+.the-contact-us {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contact-body {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+   margin-top: 30px;
+
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-bottom: 20px;
+}
+input, textarea {
+    width:100%;
+    padding: 0px;
+    box-sizing:border-box;
+    border: none;
+    border-bottom: solid 1px;
+    cursor: pointer;
+}
+
+/* Footer*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:black;
+    height: 20vh;
+}
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
 
